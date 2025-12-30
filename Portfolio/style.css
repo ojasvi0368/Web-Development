@@ -1,0 +1,56 @@
+body{
+      font-family: Arial, sans-serif;
+     line-height: 1.6;
+      margin: 0;
+       padding: 0;
+        background-color: #e3dcdc;
+}
+.li {
+      display: inline; 
+     padding: 0 15px;
+}
+         
+.header nav a { 
+            color: solid black;
+             text-decoration: none;
+             text-transform: uppercase;
+              font-size: 16px;
+           }
+.header nav a:hover { 
+    color: #1150bb;
+     font-weight: bold;
+     } 
+.hero{
+         background: #d1cdcd; 
+         padding: 40px 0;
+          text-align: center;
+           border-bottom:0;
+          }
+.li {
+      margin-bottom: 5px;
+      } 
+.project-card a { 
+     color: #133a7d; 
+     text-decoration: none; 
+} 
+.project-card a:hover { 
+     text-decoration: underline; 
+} 
+.skills {
+      padding: 40px 0;
+       background: #dad2d2;
+        text-align: center;
+         border-bottom: 1px solid #1f1d1d; 
+     }
+.skills-list {
+      display: flex;
+       justify-content: center;
+}
+.ul li { 
+          margin-bottom: 8px; 
+     } 
+#contact {
+      padding: 40px 0; 
+      background: #6d6c6c;
+       text-align: center;
+      }
