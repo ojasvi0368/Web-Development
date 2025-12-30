@@ -3,7 +3,7 @@ body{
      line-height: 1.6;
       margin: 0;
        padding: 0;
-        background-color: #e3dcdc;
+        background-color: #d1cbcb;
 }
 .li {
       display: inline; 
@@ -21,14 +21,14 @@ body{
      font-weight: bold;
      } 
 .hero{
-         background: #d1cdcd; 
+         background: #a19b9b; 
          padding: 40px 0;
           text-align: center;
            border-bottom:0;
           }
 .li {
       margin-bottom: 5px;
-      } 
+} 
 .project-card a { 
      color: #133a7d; 
      text-decoration: none; 
@@ -38,10 +38,10 @@ body{
 } 
 .skills {
       padding: 40px 0;
-       background: #dad2d2;
+       background: #9bbfec;
         text-align: center;
          border-bottom: 1px solid #1f1d1d; 
-     }
+}
 .skills-list {
       display: flex;
        justify-content: center;
@@ -51,6 +51,6 @@ body{
      } 
 #contact {
       padding: 40px 0; 
-      background: #6d6c6c;
+      background: #70c4cd;
        text-align: center;
       }
