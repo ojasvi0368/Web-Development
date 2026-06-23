@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
+<script>
+function searchProduct() {
+    let product = document.querySelector(".search-input").value;
+    if(product === "") {
+        alert("Please enter a product name");
+    } else {
+        alert("Searching for: " + product);
+    }
+}
+let count = 0;
+function addToCart() {
+    count++;
+    document.getElementById("cartCount").innerText = count;
+}
+</script>
 <body>
 <header>
     <div class="navbar">
